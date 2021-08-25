@@ -15,7 +15,6 @@ spring:
 eureka:
   client:
     service-url:
-      # 填写注册中心服务器地址
       defaultZone: http://eureka7001.com:7001/eureka/
 
 ---
@@ -32,5 +31,4 @@ spring:
 eureka:
   client:
     service-url:
-      # 填写注册中心服务器地址
       defaultZone: http://eureka7001.com:7001/eureka/
