@@ -14,9 +14,8 @@ spring:
 #Eureka的配置，服务注册到哪里
 eureka:
   client:
-    service-url:
+    service-url:                   
       defaultZone: http://eureka7001.com:7001/eureka/
-
 ---
 server:
   port: 8202
@@ -30,5 +29,5 @@ spring:
 #Eureka的配置，服务注册到哪里
 eureka:
   client:
-    service-url:
+    service-url:                   
       defaultZone: http://eureka7001.com:7001/eureka/
